@@ -14,7 +14,7 @@ int main(int argc, char* argv[])
 	double a = 0.0, b = 1.0; //Initial value setting
 	double x; //Solution
 	
-	cout << "x^3 + 5x - 4 = 0 の2分法による数値計算" << endl;
+	cout << "x^3 + 2x - 4 = 0 の2分法による数値計算" << endl;
 	
 	cout << "初期値 a = " << a << endl;
 	cout << "初期値 b = " << b << endl;
@@ -43,5 +43,5 @@ double dichotomy(double a, double b)
 
 double func_y(double x)
 {
-	return pow(x, 3.0) + (5.0 * x) - 4.0;
+	return pow(x, 3.0) + (2.0 * x) - 4.0;
 }
